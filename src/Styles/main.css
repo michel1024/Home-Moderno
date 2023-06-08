@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 350;
+}
+
+.title{
+    text-align: center;
+    margin-top: 15px;
+}
+
+#home-container{
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 40px;
+}
+
+#home-container .card{
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px 6%;
+    /* background-color: cornflowerblue; */
+    background-color: #3d7cef;
+    color: white;
+    padding: 30px 0px;
+    border-radius: 11px;
+    flex: 1 0 21%;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+#home-container .card:hover{
+    background-color: rgb(91, 142, 238);
+    /* transform: scale(1.1); */
+    transform: scale(105%);
+}
+
+#home-container .card i{
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 40px;
+    color: white;
+}
+
+#home-container .card p{
+    font-size: 18px;
+}
